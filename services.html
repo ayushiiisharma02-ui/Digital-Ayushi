@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SEO & Digital Marketing Services | Digital Ayushi</title>
+
+    <meta name="description"
+        content="Explore Digital Ayushi's SEO and digital marketing services including SEO, keyword research, content marketing, website optimization, and digital growth strategies.">
+
+    <meta name="keywords"
+        content="SEO services, digital marketing services, keyword research, content marketing, website optimization, Digital Ayushi">
+
+    <meta name="author" content="Ayushi Sharma">
+
+    <link rel="canonical" href="https://www.digitalayushi.com/services.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="SEO & Digital Marketing Services | Digital Ayushi">
+
+    <meta property="og:description"
+        content="Explore practical SEO and digital marketing services by Digital Ayushi.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url"
+        content="https://www.digitalayushi.com/services.html">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f8f7ff;
+            color: #111827;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1150px;
+            margin: auto;
+        }
+
+        /* Header */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #eee;
+        }
+
+        .navbar {
+            min-height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            text-decoration: none;
+            font-size: 26px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #6c4df6, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav {
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: #374151;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #6c4df6;
+        }
+
+        /* Hero */
+
+        .page-hero {
+            padding: 100px 20px 90px;
+            text-align: center;
+            background:
+                radial-gradient(circle at top left,
+                rgba(108, 77, 246, 0.18),
+                transparent 35%),
+                radial-gradient(circle at bottom right,
+                rgba(236, 72, 153, 0.15),
+                transparent 35%),
+                #ffffff;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 8px 18px;
+            border-radius: 30px;
+            background: #eeeaff;
+            color: #6c4df6;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .page-hero h1 {
+            font-size: clamp(40px, 6vw, 65px);
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #6c4df6, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-hero p {
+            max-width: 750px;
+            margin: auto;
+            color: #6b7280;
+            font-size: 18px;
+        }
+
+        /* Services */
+
+        .services {
+            padding: 90px 0;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        .section-heading span {
+            color: #ec4899;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        .section-heading h2 {
+            font-size: 40px;
+            margin: 10px 0 15px;
+        }
+
+        .section-heading p {
+            max-width: 700px;
+            margin: auto;
+            color: #6b7280;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .service-card {
+            background: #ffffff;
+            padding: 35px 28px;
+            border-radius: 22px;
+            border: 1px solid #eeeaff;
+            box-shadow: 0 12px 35px rgba(31, 41, 55, 0.07);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #6c4df6, #ec4899);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 45px rgba(108, 77, 246, 0.15);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            background: linear-gradient(135deg, #eeeaff, #ffe9f4);
+            font-size: 28px;
+            margin-bottom: 22px;
+        }
+
+        .service-card h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            color: #6b7280;
+            font-size: 15px;
+        }
+
+        /* Process */
+
+        .process {
+            padding: 90px 0;
+            background: #ffffff;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .process-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: #f8f7ff;
+            border-radius: 20px;
+        }
+
+        .process-number {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #6c4df6, #ec4899);
+            color: white;
+            font-weight: 800;
+        }
+
+        .process-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .process-card p {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        /* CTA */
+
+        .cta {
+            padding: 90px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #6c4df6, #ec4899);
+            color: white;
+        }
+
+        .cta h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            max-width: 650px;
+            margin: auto auto 28px;
+            opacity: 0.92;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            border-radius: 50px;
+            background: white;
+            color: #6c4df6;
+            text-decoration: none;
+            font-weight: 800;
+            transition: 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+
+        footer {
+            background: #111827;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer p {
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 900px) {
+
+            .service-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 650px) {
+
+            .navbar {
+                flex-direction: column;
+                padding: 18px 0;
+                gap: 12px;
+            }
+
+            nav {
+                gap: 12px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav a {
+                font-size: 14px;
+            }
+
+            .page-hero {
+                padding: 70px 15px;
+            }
+
+            .page-hero h1 {
+                font-size: 40px;
+            }
+
+            .service-grid,
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-heading h2,
+            .cta h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+
+    <!-- Person Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ayushi Sharma",
+        "url": "https://www.digitalayushi.com/",
+        "jobTitle": "SEO & Digital Marketing Specialist"
+    }
+    </script>
+
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "SEO & Digital Marketing Services",
+        "url": "https://www.digitalayushi.com/services.html",
+        "description": "SEO and digital marketing services offered through Digital Ayushi."
+    }
+    </script>
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<header>
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+            Digital Ayushi
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="insights.html">Insights</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- Hero -->
+
+<section class="page-hero">
+
+    <span class="badge">DIGITAL AYUSHI SERVICES</span>
+
+    <h1>
+        SEO & Digital Marketing
+        <span class="gradient-text">Services</span>
+    </h1>
+
+    <p>
+        Practical SEO and digital marketing solutions focused on
+        improving website visibility, search performance, content
+        quality, and sustainable online growth.
+    </p>
+
+</section>
+
+
+<!-- Services -->
+
+<section class="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>WHAT I DO</span>
+
+            <h2>Digital Marketing Services</h2>
+
+            <p>
+                Explore the core areas covered by Digital Ayushi,
+                from search engine optimization to content and
+                website performance.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+            <!-- Service 1 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">🔍</div>
+
+                <h3>SEO</h3>
+
+                <p>
+                    Search engine optimization strategies focused
+                    on improving website visibility, organic
+                    rankings, and search performance.
+                </p>
+
+            </div>
+
+
+            <!-- Service 2 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">🎯</div>
+
+                <h3>Keyword Research</h3>
+
+                <p>
+                    Finding relevant search terms and understanding
+                    search intent to create content that connects
+                    with the right audience.
+                </p>
+
+            </div>
+
+
+            <!-- Service 3 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">✍️</div>
+
+                <h3>Content Marketing</h3>
+
+                <p>
+                    Creating useful, engaging, and search-friendly
+                    content designed to provide value while
+                    supporting organic growth.
+                </p>
+
+            </div>
+
+
+            <!-- Service 4 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">⚙️</div>
+
+                <h3>On-Page SEO</h3>
+
+                <p>
+                    Improving titles, headings, content structure,
+                    internal linking, metadata, and other important
+                    on-page SEO elements.
+                </p>
+
+            </div>
+
+
+            <!-- Service 5 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">🌐</div>
+
+                <h3>Website Optimization</h3>
+
+                <p>
+                    Website optimization focused on structure,
+                    usability, content organization, and search
+                    engine accessibility.
+                </p>
+
+            </div>
+
+
+            <!-- Service 6 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">📈</div>
+
+                <h3>SEO Analysis</h3>
+
+                <p>
+                    Reviewing website performance, identifying
+                    optimization opportunities, and understanding
+                    areas that can support better organic growth.
+                </p>
+
+            </div>
+
+
+            <!-- Service 7 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">🔗</div>
+
+                <h3>Off-Page SEO</h3>
+
+                <p>
+                    Building a stronger online presence through
+                    relevant off-page activities, digital
+                    promotion, and quality link-building practices.
+                </p>
+
+            </div>
+
+
+            <!-- Service 8 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">📱</div>
+
+                <h3>Social Media Marketing</h3>
+
+                <p>
+                    Digital content and social media ideas designed
+                    to improve online engagement, visibility, and
+                    brand awareness.
+                </p>
+
+            </div>
+
+
+            <!-- Service 9 -->
+
+            <div class="service-card">
+
+                <div class="service-icon">📊</div>
+
+                <h3>SEO Reporting</h3>
+
+                <p>
+                    Organizing SEO performance information to
+                    understand progress, identify opportunities,
+                    and plan future optimization activities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Process -->
+
+<section class="process">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>MY APPROACH</span>
+
+            <h2>How I Work</h2>
+
+            <p>
+                A simple approach to understanding a website,
+                identifying opportunities, and improving its
+                digital presence.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <div class="process-card">
+
+                <div class="process-number">01</div>
+
+                <h3>Research</h3>
+
+                <p>
+                    Understand the website, audience, competitors,
+                    and search opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">02</div>
+
+                <h3>Strategy</h3>
+
+                <p>
+                    Create an SEO and content strategy based on
+                    relevant goals and search intent.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">03</div>
+
+                <h3>Optimize</h3>
+
+                <p>
+                    Improve content, keywords, website structure,
+                    and important SEO elements.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">04</div>
+
+                <h3>Analyze</h3>
+
+                <p>
+                    Review performance and identify opportunities
+                    for continuous improvement.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+    <h2>Want to Explore More?</h2>
+
+    <p>
+        Discover SEO insights, practical digital marketing ideas,
+        and useful resources on Digital Ayushi.
+    </p>
+
+    <a href="insights.html" class="cta-btn">
+        Explore Insights →
+    </a>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            © 2026 Digital Ayushi. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
