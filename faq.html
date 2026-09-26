@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FAQ | Digital Ayushi – SEO & Digital Marketing</title>
+
+  <meta name="description" content="Find answers to frequently asked questions about SEO, digital marketing, keyword research, on-page SEO, off-page SEO, technical SEO, and content optimization.">
+
+  <meta name="keywords" content="SEO FAQ, Digital Marketing FAQ, SEO Questions, On Page SEO, Off Page SEO, Technical SEO, Keyword Research, Digital Ayushi">
+
+  <meta name="author" content="Ayushi Sharma">
+
+  <link rel="canonical" href="https://www.digitalayushi.com/faq.html">
+
+
+  <!-- Open Graph -->
+
+  <meta property="og:title" content="FAQ | Digital Ayushi">
+
+  <meta property="og:description" content="Answers to common questions about SEO and digital marketing.">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url" content="https://www.digitalayushi.com/faq.html">
+
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="FAQ | Digital Ayushi">
+
+  <meta name="twitter:description" content="Frequently asked questions about SEO and digital marketing.">
+
+
+  <style>
+
+    :root {
+      --primary: #6c4df6;
+      --primary-dark: #4f35c8;
+      --secondary: #ec4899;
+      --accent: #06b6d4;
+      --yellow: #f59e0b;
+      --dark: #111827;
+      --text: #374151;
+      --muted: #6b7280;
+      --light: #f8f7ff;
+      --white: #ffffff;
+      --border: #e5e7eb;
+
+      --shadow: 0 15px 40px rgba(17, 24, 39, 0.08);
+
+      --radius: 18px;
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--white);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+    .container {
+      width: min(1120px, 92%);
+      margin: auto;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      background: rgba(17, 24, 39, 0.96);
+
+      backdrop-filter: blur(10px);
+
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    }
+
+
+    .nav {
+      min-height: 72px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 25px;
+    }
+
+
+    .logo {
+      font-size: 25px;
+
+      font-weight: 800;
+
+      background:
+        linear-gradient(
+          90deg,
+          #a78bfa,
+          #ec4899,
+          #06b6d4
+        );
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      background-clip: text;
+
+      white-space: nowrap;
+    }
+
+
+    .nav-links {
+      display: flex;
+
+      align-items: center;
+
+      gap: 25px;
+
+      list-style: none;
+    }
+
+
+    .nav-links a {
+      color: #ffffff;
+
+      font-size: 15px;
+
+      font-weight: 600;
+
+      transition: 0.3s ease;
+    }
+
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #a78bfa;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      padding: 100px 0 85px;
+
+      background:
+
+        radial-gradient(
+          circle at top left,
+          rgba(108, 77, 246, 0.18),
+          transparent 35%
+        ),
+
+        radial-gradient(
+          circle at bottom right,
+          rgba(236, 72, 153, 0.15),
+          transparent 35%
+        ),
+
+        var(--light);
+
+      text-align: center;
+    }
+
+
+    .hero-badge {
+      display: inline-block;
+
+      padding: 8px 16px;
+
+      border-radius: 50px;
+
+      background: rgba(108, 77, 246, 0.1);
+
+      color: var(--primary);
+
+      font-weight: 700;
+
+      font-size: 14px;
+
+      margin-bottom: 20px;
+    }
+
+
+    .hero h1 {
+      font-size: clamp(38px, 6vw, 64px);
+
+      line-height: 1.15;
+
+      color: var(--dark);
+
+      margin-bottom: 20px;
+    }
+
+
+    .gradient-text {
+      background:
+        linear-gradient(
+          90deg,
+          var(--primary),
+          var(--secondary),
+          var(--accent)
+        );
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      background-clip: text;
+    }
+
+
+    .hero p {
+      max-width: 760px;
+
+      margin: auto;
+
+      color: var(--muted);
+
+      font-size: 18px;
+    }
+
+
+    /* =========================
+       FAQ SECTION
+    ========================= */
+
+    .faq-section {
+      padding: 85px 0;
+    }
+
+
+    .section-heading {
+      text-align: center;
+
+      margin-bottom: 50px;
+    }
+
+
+    .section-heading h2 {
+      color: var(--dark);
+
+      font-size: 40px;
+
+      margin-bottom: 12px;
+    }
+
+
+    .section-heading p {
+      max-width: 720px;
+
+      margin: auto;
+
+      color: var(--muted);
+    }
+
+
+    .faq-container {
+      max-width: 850px;
+
+      margin: auto;
+    }
+
+
+    .faq-item {
+      border: 1px solid var(--border);
+
+      border-radius: 15px;
+
+      margin-bottom: 15px;
+
+      overflow: hidden;
+
+      background: var(--white);
+
+      transition: 0.3s ease;
+    }
+
+
+    .faq-item:hover {
+      border-color: rgba(108, 77, 246, 0.35);
+
+      box-shadow: 0 8px 25px rgba(17, 24, 39, 0.06);
+    }
+
+
+    .faq-question {
+      width: 100%;
+
+      border: none;
+
+      background: transparent;
+
+      padding: 22px 25px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 20px;
+
+      cursor: pointer;
+
+      text-align: left;
+
+      color: var(--dark);
+
+      font-size: 17px;
+
+      font-weight: 700;
+    }
+
+
+    .faq-icon {
+      width: 30px;
+
+      height: 30px;
+
+      min-width: 30px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      border-radius: 50%;
+
+      background: rgba(108, 77, 246, 0.1);
+
+      color: var(--primary);
+
+      font-size: 20px;
+
+      transition: 0.3s ease;
+    }
+
+
+    .faq-answer {
+      max-height: 0;
+
+      overflow: hidden;
+
+      transition: max-height 0.35s ease;
+    }
+
+
+    .faq-answer p {
+      padding: 0 25px 22px;
+
+      color: var(--muted);
+
+      font-size: 15px;
+    }
+
+
+    .faq-item.active .faq-answer {
+      max-height: 250px;
+    }
+
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+
+      background: var(--primary);
+
+      color: white;
+    }
+
+
+    /* =========================
+       FAQ CATEGORIES
+    ========================= */
+
+    .categories {
+      padding: 80px 0;
+
+      background: var(--light);
+    }
+
+
+    .category-grid {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 22px;
+    }
+
+
+    .category-card {
+      background: var(--white);
+
+      border: 1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      padding: 30px;
+
+      text-align: center;
+
+      transition: 0.3s ease;
+    }
+
+
+    .category-card:hover {
+      transform: translateY(-6px);
+
+      box-shadow: var(--shadow);
+    }
+
+
+    .category-icon {
+      width: 55px;
+
+      height: 55px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      margin: 0 auto 18px;
+
+      border-radius: 15px;
+
+      background: rgba(108, 77, 246, 0.1);
+
+      color: var(--primary);
+
+      font-weight: 800;
+
+      font-size: 18px;
+    }
+
+
+    .category-card h3 {
+      color: var(--dark);
+
+      margin-bottom: 10px;
+
+      font-size: 20px;
+    }
+
+
+    .category-card p {
+      color: var(--muted);
+
+      font-size: 14px;
+    }
+
+
+    /* =========================
+       CTA
+    ========================= */
+
+    .cta {
+      padding: 80px 0;
+
+      text-align: center;
+
+      background: var(--white);
+    }
+
+
+    .cta h2 {
+      font-size: 38px;
+
+      color: var(--dark);
+
+      margin-bottom: 15px;
+    }
+
+
+    .cta p {
+      max-width: 680px;
+
+      margin: 0 auto 28px;
+
+      color: var(--muted);
+    }
+
+
+    .btn {
+      display: inline-block;
+
+      padding: 14px 28px;
+
+      border-radius: 50px;
+
+      background:
+        linear-gradient(
+          90deg,
+          var(--primary),
+          var(--secondary)
+        );
+
+      color: white;
+
+      font-weight: 700;
+
+      transition: 0.3s ease;
+
+      box-shadow:
+        0 10px 25px rgba(108, 77, 246, 0.25);
+    }
+
+
+    .btn:hover {
+      transform: translateY(-3px);
+
+      box-shadow:
+        0 15px 30px rgba(108, 77, 246, 0.35);
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+      background: #111827;
+
+      color: #d1d5db;
+
+      padding: 35px 0;
+
+      text-align: center;
+    }
+
+
+    footer .footer-logo {
+      font-size: 23px;
+
+      font-weight: 800;
+
+      background:
+        linear-gradient(
+          90deg,
+          #a78bfa,
+          #ec4899,
+          #06b6d4
+        );
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      margin-bottom: 10px;
+    }
+
+
+    footer p {
+      font-size: 14px;
+
+      color: #9ca3af;
+    }
+
+
+    /* =========================
+       RESPONSIVE
+    ========================= */
+
+    @media (max-width: 900px) {
+
+      .nav {
+        flex-direction: column;
+
+        padding: 18px 0;
+      }
+
+
+      .nav-links {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+      }
+
+
+      .category-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .hero {
+        padding: 75px 0 65px;
+      }
+
+
+      .faq-section,
+      .categories,
+      .cta {
+        padding: 65px 0;
+      }
+
+
+      .category-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .section-heading h2,
+      .cta h2 {
+        font-size: 31px;
+      }
+
+
+      .faq-question {
+        padding: 19px;
+
+        font-size: 15px;
+      }
+
+
+      .faq-answer p {
+        padding: 0 19px 20px;
+      }
+
+
+      .nav-links {
+        gap: 10px;
+      }
+
+
+      .nav-links a {
+        font-size: 13px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =========================
+       HEADER
+  ========================= -->
+
+  <header>
+
+    <div class="container nav">
+
+      <a href="index.html" class="logo">
+        Digital Ayushi
+      </a>
+
+
+      <nav>
+
+        <ul class="nav-links">
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html">
+              About
+            </a>
+          </li>
+
+          <li>
+            <a href="blog.html">
+              Blog
+            </a>
+          </li>
+
+          <li>
+            <a href="insights.html">
+              Insights
+            </a>
+          </li>
+
+          <li>
+            <a href="faq.html" class="active">
+              FAQ
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section class="hero">
+
+    <div class="container">
+
+      <div class="hero-badge">
+        Frequently Asked Questions
+      </div>
+
+
+      <h1>
+
+        SEO & Digital Marketing
+        <span class="gradient-text">
+          FAQs
+        </span>
+
+      </h1>
+
+
+      <p>
+        Find answers to common questions about SEO, digital marketing,
+        keyword research, content optimization, and website visibility.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FAQ
+  ========================= -->
+
+  <section class="faq-section">
+
+    <div class="container">
+
+
+      <div class="section-heading">
+
+        <h2>
+          Common Questions
+        </h2>
+
+        <p>
+          Here are some commonly asked questions about SEO and
+          digital marketing.
+        </p>
+
+      </div>
+
+
+      <div class="faq-container">
+
+
+        <!-- FAQ 1 -->
+
+        <div class="faq-item active">
+
+          <button class="faq-question">
+
+            <span>
+              What is SEO?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              SEO, or Search Engine Optimization, is the process of
+              improving a website so that search engines can better
+              understand its content and users can find relevant
+              information more easily through search.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 2 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              Why is SEO important for a website?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              SEO can help improve a website's visibility in search
+              results, make content easier to discover, and attract
+              visitors who are searching for relevant information,
+              products, or services.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 3 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              What is on-page SEO?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              On-page SEO focuses on elements within a webpage, such as
+              titles, headings, content, URLs, internal links, images,
+              and other page-level elements that help organize and
+              communicate the topic of a page.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 4 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              What is off-page SEO?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Off-page SEO involves activities outside your website that
+              can contribute to online visibility and authority. These
+              activities can include link building, content promotion,
+              digital PR, and relevant online mentions.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 5 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              What is technical SEO?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Technical SEO focuses on technical aspects of a website
+              that can affect crawling, indexing, website structure,
+              performance, mobile usability, and how search engines
+              access and understand the site.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 6 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              What is keyword research?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Keyword research is the process of identifying words and
+              phrases people use when searching for information online.
+              It can help guide content planning and help businesses
+              understand relevant search topics.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 7 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              How does content optimization help SEO?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Content optimization can improve the structure, relevance,
+              readability, and usefulness of a webpage. Well-organized
+              content can make information easier for visitors and
+              search engines to understand.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 8 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              Does SEO provide instant results?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              SEO generally requires ongoing work and monitoring. The
+              time required to see changes can vary depending on factors
+              such as the website, competition, content, technical
+              condition, and the type of optimization being performed.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 9 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              What is internal linking?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Internal linking means linking one page of a website to
+              another page on the same website. Relevant internal links
+              can help visitors discover related content and create
+              useful connections between pages.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FAQ 10 -->
+
+        <div class="faq-item">
+
+          <button class="faq-question">
+
+            <span>
+              How can I learn more about SEO?
+            </span>
+
+            <span class="faq-icon">
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              You can explore SEO topics through the Digital Ayushi blog
+              and insights sections, where you can learn about keyword
+              research, on-page SEO, technical SEO, content optimization,
+              and other digital marketing topics.
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FAQ CATEGORIES
+  ========================= -->
+
+  <section class="categories">
+
+    <div class="container">
+
+
+      <div class="section-heading">
+
+        <h2>
+          Explore SEO Topics
+        </h2>
+
+        <p>
+          Learn more about different areas of search engine optimization.
+        </p>
+
+      </div>
+
+
+      <div class="category-grid">
+
+
+        <div class="category-card">
+
+          <div class="category-icon">
+            SEO
+          </div>
+
+          <h3>
+            On-Page SEO
+          </h3>
+
+          <p>
+            Learn about page titles, headings, content, URLs,
+            internal links, and other page-level elements.
+          </p>
+
+        </div>
+
+
+        <div class="category-card">
+
+          <div class="category-icon">
+            🔗
+          </div>
+
+          <h3>
+            Off-Page SEO
+          </h3>
+
+          <p>
+            Explore link building, content promotion, online mentions,
+            and other off-page activities.
+          </p>
+
+        </div>
+
+
+        <div class="category-card">
+
+          <div class="category-icon">
+            ⚙
+          </div>
+
+          <h3>
+            Technical SEO
+          </h3>
+
+          <p>
+            Understand crawling, indexing, website structure,
+            performance, and technical optimization.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       CTA
+  ========================= -->
+
+  <section class="cta">
+
+    <div class="container">
+
+      <h2>
+        Still Looking for SEO Answers?
+      </h2>
+
+
+      <p>
+        Explore the Digital Ayushi blog for more practical articles
+        and insights about SEO and digital marketing.
+      </p>
+
+
+      <a href="blog.html" class="btn">
+        Explore Blog →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-logo">
+        Digital Ayushi
+      </div>
+
+
+      <p>
+        © 2026 Digital Ayushi. SEO & Digital Marketing Specialist.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================
+       FAQ JAVASCRIPT
+  ========================= -->
+
+  <script>
+
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach((item) => {
+
+      const question = item.querySelector(".faq-question");
+
+      question.addEventListener("click", () => {
+
+        const isActive = item.classList.contains("active");
+
+
+        faqItems.forEach((faq) => {
+          faq.classList.remove("active");
+        });
+
+
+        if (!isActive) {
+          item.classList.add("active");
+        }
+
+      });
+
+    });
+
+  </script>
+
+
+  <!-- FAQ STRUCTURED DATA -->
+
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+
+    "mainEntity": [
+
+      {
+        "@type": "Question",
+        "name": "What is SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO, or Search Engine Optimization, is the process of improving a website so that search engines can better understand its content and users can find relevant information more easily through search."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "Why is SEO important for a website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO can help improve a website's visibility in search results, make content easier to discover, and attract visitors who are searching for relevant information, products, or services."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "What is on-page SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On-page SEO focuses on elements within a webpage, such as titles, headings, content, URLs, internal links, images, and other page-level elements that help organize and communicate the topic of a page."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "What is off-page SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Off-page SEO involves activities outside your website that can contribute to online visibility and authority. These activities can include link building, content promotion, digital PR, and relevant online mentions."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "What is technical SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Technical SEO focuses on technical aspects of a website that can affect crawling, indexing, website structure, performance, mobile usability, and how search engines access and understand the site."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "What is keyword research?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keyword research is the process of identifying words and phrases people use when searching for information online. It can help guide content planning and help businesses understand relevant search topics."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "How does content optimization help SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Content optimization can improve the structure, relevance, readability, and usefulness of a webpage. Well-organized content can make information easier for visitors and search engines to understand."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "Does SEO provide instant results?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO generally requires ongoing work and monitoring. The time required to see changes can vary depending on factors such as the website, competition, content, technical condition, and the type of optimization being performed."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "What is internal linking?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Internal linking means linking one page of a website to another page on the same website. Relevant internal links can help visitors discover related content and create useful connections between pages."
+        }
+      },
+
+      {
+        "@type": "Question",
+        "name": "How can I learn more about SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can explore SEO topics through the Digital Ayushi blog and insights sections, where you can learn about keyword research, on-page SEO, technical SEO, content optimization, and other digital marketing topics."
+        }
+      }
+
+    ]
+  }
+
+  </script>
+
+
+</body>
+</html>
