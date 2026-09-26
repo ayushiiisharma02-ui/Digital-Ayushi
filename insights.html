@@ -1,1 +1,1306 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SEO Insights | Digital Ayushi</title>
+
+  <meta name="description" content="Explore SEO and digital marketing insights from Digital Ayushi, including SEO strategies, search trends, content optimization, keyword research, and website growth tips.">
+
+  <meta name="keywords" content="SEO Insights, Digital Marketing Insights, SEO Strategies, SEO Tips, Keyword Research, Content Marketing, Technical SEO, Digital Ayushi">
+
+  <meta name="author" content="Ayushi Sharma">
+
+  <link rel="canonical" href="https://www.digitalayushi.com/insights.html">
+
+
+  <!-- Open Graph -->
+
+  <meta property="og:title" content="SEO Insights | Digital Ayushi">
+
+  <meta property="og:description" content="Practical SEO and digital marketing insights to understand search, content, and online visibility.">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url" content="https://www.digitalayushi.com/insights.html">
+
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="SEO Insights | Digital Ayushi">
+
+  <meta name="twitter:description" content="Explore practical SEO and digital marketing insights from Digital Ayushi.">
+
+
+  <style>
+
+    :root {
+      --primary: #6c4df6;
+      --primary-dark: #4f35c8;
+      --secondary: #ec4899;
+      --accent: #06b6d4;
+      --yellow: #f59e0b;
+      --dark: #111827;
+      --text: #374151;
+      --muted: #6b7280;
+      --light: #f8f7ff;
+      --white: #ffffff;
+      --border: #e5e7eb;
+
+      --shadow: 0 15px 40px rgba(17, 24, 39, 0.08);
+
+      --radius: 18px;
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--white);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+    .container {
+      width: min(1120px, 92%);
+      margin: auto;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      background: rgba(17, 24, 39, 0.96);
+
+      backdrop-filter: blur(10px);
+
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    }
+
+
+    .nav {
+      min-height: 72px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 25px;
+    }
+
+
+    .logo {
+      font-size: 25px;
+
+      font-weight: 800;
+
+      background:
+        linear-gradient(
+          90deg,
+          #a78bfa,
+          #ec4899,
+          #06b6d4
+        );
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      background-clip: text;
+
+      white-space: nowrap;
+    }
+
+
+    .nav-links {
+      display: flex;
+
+      align-items: center;
+
+      gap: 25px;
+
+      list-style: none;
+    }
+
+
+    .nav-links a {
+      color: #ffffff;
+
+      font-size: 15px;
+
+      font-weight: 600;
+
+      transition: 0.3s ease;
+    }
+
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #a78bfa;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      padding: 100px 0 85px;
+
+      background:
+
+        radial-gradient(
+          circle at top left,
+          rgba(108, 77, 246, 0.18),
+          transparent 35%
+        ),
+
+        radial-gradient(
+          circle at bottom right,
+          rgba(236, 72, 153, 0.15),
+          transparent 35%
+        ),
+
+        var(--light);
+
+      text-align: center;
+    }
+
+
+    .hero-badge {
+      display: inline-block;
+
+      padding: 8px 16px;
+
+      border-radius: 50px;
+
+      background: rgba(108, 77, 246, 0.1);
+
+      color: var(--primary);
+
+      font-weight: 700;
+
+      font-size: 14px;
+
+      margin-bottom: 20px;
+    }
+
+
+    .hero h1 {
+      font-size: clamp(38px, 6vw, 64px);
+
+      line-height: 1.15;
+
+      color: var(--dark);
+
+      margin-bottom: 20px;
+    }
+
+
+    .gradient-text {
+      background:
+        linear-gradient(
+          90deg,
+          var(--primary),
+          var(--secondary),
+          var(--accent)
+        );
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      background-clip: text;
+    }
+
+
+    .hero p {
+      max-width: 760px;
+
+      margin: auto;
+
+      color: var(--muted);
+
+      font-size: 18px;
+    }
+
+
+    /* =========================
+       INSIGHTS
+    ========================= */
+
+    .insights-section {
+      padding: 85px 0;
+    }
+
+
+    .section-heading {
+      text-align: center;
+
+      margin-bottom: 50px;
+    }
+
+
+    .section-heading h2 {
+      color: var(--dark);
+
+      font-size: 40px;
+
+      margin-bottom: 12px;
+    }
+
+
+    .section-heading p {
+      max-width: 720px;
+
+      margin: auto;
+
+      color: var(--muted);
+    }
+
+
+    .insights-grid {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 25px;
+    }
+
+
+    .insight-card {
+      background: var(--white);
+
+      border: 1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      padding: 30px;
+
+      transition: 0.3s ease;
+    }
+
+
+    .insight-card:hover {
+      transform: translateY(-7px);
+
+      box-shadow: var(--shadow);
+
+      border-color: rgba(108, 77, 246, 0.25);
+    }
+
+
+    .insight-number {
+      width: 50px;
+
+      height: 50px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      border-radius: 14px;
+
+      background: rgba(108, 77, 246, 0.1);
+
+      color: var(--primary);
+
+      font-weight: 800;
+
+      margin-bottom: 20px;
+    }
+
+
+    .insight-card h3 {
+      color: var(--dark);
+
+      font-size: 21px;
+
+      line-height: 1.4;
+
+      margin-bottom: 12px;
+    }
+
+
+    .insight-card p {
+      color: var(--muted);
+
+      font-size: 15px;
+
+      margin-bottom: 18px;
+    }
+
+
+    .insight-link {
+      color: var(--primary);
+
+      font-size: 14px;
+
+      font-weight: 700;
+
+      transition: 0.3s ease;
+    }
+
+
+    .insight-link:hover {
+      color: var(--secondary);
+    }
+
+
+    /* =========================
+       FEATURED INSIGHT
+    ========================= */
+
+    .featured-section {
+      padding: 80px 0;
+
+      background: var(--light);
+    }
+
+
+    .featured-box {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 45px;
+
+      align-items: center;
+
+      background: var(--white);
+
+      border: 1px solid var(--border);
+
+      border-radius: 24px;
+
+      padding: 45px;
+
+      box-shadow: var(--shadow);
+    }
+
+
+    .featured-visual {
+      min-height: 300px;
+
+      border-radius: 20px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      text-align: center;
+
+      padding: 35px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #6c4df6,
+          #ec4899,
+          #06b6d4
+        );
+
+      color: white;
+    }
+
+
+    .featured-visual h3 {
+      font-size: 34px;
+
+      line-height: 1.2;
+    }
+
+
+    .featured-content .label {
+      color: var(--primary);
+
+      font-size: 13px;
+
+      font-weight: 800;
+
+      text-transform: uppercase;
+
+      letter-spacing: 1px;
+
+      margin-bottom: 12px;
+    }
+
+
+    .featured-content h2 {
+      font-size: 34px;
+
+      line-height: 1.25;
+
+      color: var(--dark);
+
+      margin-bottom: 18px;
+    }
+
+
+    .featured-content p {
+      color: var(--muted);
+
+      margin-bottom: 25px;
+    }
+
+
+    /* =========================
+       QUICK TIPS
+    ========================= */
+
+    .tips-section {
+      padding: 85px 0;
+    }
+
+
+    .tips-list {
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      gap: 20px;
+    }
+
+
+    .tip {
+      display: flex;
+
+      gap: 16px;
+
+      padding: 24px;
+
+      background: var(--light);
+
+      border-radius: 16px;
+
+      border: 1px solid var(--border);
+    }
+
+
+    .tip-icon {
+      width: 42px;
+
+      height: 42px;
+
+      flex-shrink: 0;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      border-radius: 12px;
+
+      background: rgba(6, 182, 212, 0.12);
+
+      color: var(--accent);
+
+      font-weight: 800;
+    }
+
+
+    .tip h3 {
+      color: var(--dark);
+
+      font-size: 18px;
+
+      margin-bottom: 5px;
+    }
+
+
+    .tip p {
+      color: var(--muted);
+
+      font-size: 14px;
+    }
+
+
+    /* =========================
+       CTA
+    ========================= */
+
+    .cta {
+      padding: 80px 0;
+
+      background: var(--light);
+
+      text-align: center;
+    }
+
+
+    .cta h2 {
+      font-size: 38px;
+
+      color: var(--dark);
+
+      margin-bottom: 15px;
+    }
+
+
+    .cta p {
+      max-width: 680px;
+
+      margin: 0 auto 28px;
+
+      color: var(--muted);
+    }
+
+
+    .btn {
+      display: inline-block;
+
+      padding: 14px 28px;
+
+      border-radius: 50px;
+
+      background:
+        linear-gradient(
+          90deg,
+          var(--primary),
+          var(--secondary)
+        );
+
+      color: white;
+
+      font-weight: 700;
+
+      transition: 0.3s ease;
+
+      box-shadow:
+        0 10px 25px rgba(108, 77, 246, 0.25);
+    }
+
+
+    .btn:hover {
+      transform: translateY(-3px);
+
+      box-shadow:
+        0 15px 30px rgba(108, 77, 246, 0.35);
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+      background: #111827;
+
+      color: #d1d5db;
+
+      padding: 35px 0;
+
+      text-align: center;
+    }
+
+
+    footer .footer-logo {
+      font-size: 23px;
+
+      font-weight: 800;
+
+      background:
+        linear-gradient(
+          90deg,
+          #a78bfa,
+          #ec4899,
+          #06b6d4
+        );
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      margin-bottom: 10px;
+    }
+
+
+    footer p {
+      font-size: 14px;
+
+      color: #9ca3af;
+    }
+
+
+    /* =========================
+       RESPONSIVE
+    ========================= */
+
+    @media (max-width: 900px) {
+
+      .nav {
+        flex-direction: column;
+
+        padding: 18px 0;
+      }
+
+
+      .nav-links {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+      }
+
+
+      .insights-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+
+      .featured-box {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .hero {
+        padding: 75px 0 65px;
+      }
+
+
+      .insights-section,
+      .tips-section,
+      .featured-section,
+      .cta {
+        padding: 65px 0;
+      }
+
+
+      .insights-grid,
+      .tips-list {
+        grid-template-columns: 1fr;
+      }
+
+
+      .section-heading h2,
+      .cta h2,
+      .featured-content h2 {
+        font-size: 31px;
+      }
+
+
+      .featured-box {
+        padding: 25px;
+      }
+
+
+      .featured-visual {
+        min-height: 230px;
+      }
+
+
+      .nav-links {
+        gap: 10px;
+      }
+
+
+      .nav-links a {
+        font-size: 13px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =========================
+       HEADER
+  ========================= -->
+
+  <header>
+
+    <div class="container nav">
+
+      <a href="index.html" class="logo">
+        Digital Ayushi
+      </a>
+
+
+      <nav>
+
+        <ul class="nav-links">
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html">
+              About
+            </a>
+          </li>
+
+          <li>
+            <a href="blog.html">
+              Blog
+            </a>
+          </li>
+
+          <li>
+            <a href="insights.html" class="active">
+              Insights
+            </a>
+          </li>
+
+          <li>
+            <a href="faq.html">
+              FAQ
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section class="hero">
+
+    <div class="container">
+
+      <div class="hero-badge">
+        Digital Marketing Insights
+      </div>
+
+
+      <h1>
+
+        Practical
+        <span class="gradient-text">
+          SEO Insights
+        </span>
+
+      </h1>
+
+
+      <p>
+        Explore practical ideas, observations, and strategies related to
+        SEO, content, search visibility, keyword research, and digital
+        marketing.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       INSIGHTS
+  ========================= -->
+
+  <section class="insights-section">
+
+    <div class="container">
+
+
+      <div class="section-heading">
+
+        <h2>
+          Explore My Insights
+        </h2>
+
+        <p>
+          Simple and practical perspectives on different areas of SEO
+          and digital marketing.
+        </p>
+
+      </div>
+
+
+      <div class="insights-grid">
+
+
+        <!-- INSIGHT 1 -->
+
+        <article class="insight-card">
+
+          <div class="insight-number">
+            01
+          </div>
+
+          <h3>
+            Search Intent Matters
+          </h3>
+
+          <p>
+            Understanding what users are actually looking for can help
+            create content that is more relevant to their search and
+            expectations.
+          </p>
+
+          <a href="blog.html" class="insight-link">
+            Explore Related Articles →
+          </a>
+
+        </article>
+
+
+        <!-- INSIGHT 2 -->
+
+        <article class="insight-card">
+
+          <div class="insight-number">
+            02
+          </div>
+
+          <h3>
+            Quality Over Keyword Repetition
+          </h3>
+
+          <p>
+            Keywords are useful for understanding topics, but content
+            should remain natural, useful, and focused on the reader.
+          </p>
+
+          <a href="blog.html" class="insight-link">
+            Explore Related Articles →
+          </a>
+
+        </article>
+
+
+        <!-- INSIGHT 3 -->
+
+        <article class="insight-card">
+
+          <div class="insight-number">
+            03
+          </div>
+
+          <h3>
+            SEO Is a Long-Term Process
+          </h3>
+
+          <p>
+            Sustainable SEO requires regular analysis, optimization,
+            content improvement, and patience rather than one-time changes.
+          </p>
+
+          <a href="blog.html" class="insight-link">
+            Explore Related Articles →
+          </a>
+
+        </article>
+
+
+        <!-- INSIGHT 4 -->
+
+        <article class="insight-card">
+
+          <div class="insight-number">
+            04
+          </div>
+
+          <h3>
+            Content Should Solve Problems
+          </h3>
+
+          <p>
+            Useful content answers real questions and gives visitors
+            information they can understand and apply.
+          </p>
+
+          <a href="blog.html" class="insight-link">
+            Explore Related Articles →
+          </a>
+
+        </article>
+
+
+        <!-- INSIGHT 5 -->
+
+        <article class="insight-card">
+
+          <div class="insight-number">
+            05
+          </div>
+
+          <h3>
+            Technical SEO Supports Content
+          </h3>
+
+          <p>
+            Strong content works better when search engines can properly
+            crawl, understand, and index the website.
+          </p>
+
+          <a href="blog.html" class="insight-link">
+            Explore Related Articles →
+          </a>
+
+        </article>
+
+
+        <!-- INSIGHT 6 -->
+
+        <article class="insight-card">
+
+          <div class="insight-number">
+            06
+          </div>
+
+          <h3>
+            Internal Linking Creates Connections
+          </h3>
+
+          <p>
+            Relevant internal links can help visitors discover related
+            information while creating useful connections between pages.
+          </p>
+
+          <a href="blog.html" class="insight-link">
+            Explore Related Articles →
+          </a>
+
+        </article>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FEATURED INSIGHT
+  ========================= -->
+
+  <section class="featured-section">
+
+    <div class="container">
+
+      <div class="featured-box">
+
+
+        <div class="featured-visual">
+
+          <h3>
+            Understand SEO.<br>
+            Analyze Data.<br>
+            Improve Continuously.
+          </h3>
+
+        </div>
+
+
+        <div class="featured-content">
+
+          <div class="label">
+            Featured Insight
+          </div>
+
+
+          <h2>
+            SEO Works Best as a Complete Strategy
+          </h2>
+
+
+          <p>
+            SEO is made up of several connected activities. Keyword research
+            can guide content planning, on-page optimization can improve page
+            structure, technical SEO can support crawling and indexing, while
+            off-page activities can help build online visibility.
+          </p>
+
+
+          <p>
+            Looking at these areas together can provide a more complete view
+            of website optimization.
+          </p>
+
+
+          <a href="blog.html" class="btn">
+            Read SEO Articles →
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       QUICK TIPS
+  ========================= -->
+
+  <section class="tips-section">
+
+    <div class="container">
+
+
+      <div class="section-heading">
+
+        <h2>
+          Quick SEO Takeaways
+        </h2>
+
+        <p>
+          Small improvements can make your SEO workflow more organized
+          and focused.
+        </p>
+
+      </div>
+
+
+      <div class="tips-list">
+
+
+        <div class="tip">
+
+          <div class="tip-icon">
+            ✓
+          </div>
+
+          <div>
+
+            <h3>
+              Understand Your Audience
+            </h3>
+
+            <p>
+              Know who you are creating content for and what information
+              they are looking for.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="tip">
+
+          <div class="tip-icon">
+            ✓
+          </div>
+
+          <div>
+
+            <h3>
+              Research Before Writing
+            </h3>
+
+            <p>
+              Use keyword and topic research to understand the subject
+              before creating content.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="tip">
+
+          <div class="tip-icon">
+            ✓
+          </div>
+
+          <div>
+
+            <h3>
+              Keep Pages Organized
+            </h3>
+
+            <p>
+              Use clear headings, short paragraphs, useful links, and
+              logical page structures.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="tip">
+
+          <div class="tip-icon">
+            ✓
+          </div>
+
+          <div>
+
+            <h3>
+              Review SEO Regularly
+            </h3>
+
+            <p>
+              Monitor your website and regularly identify areas that
+              can be improved.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="tip">
+
+          <div class="tip-icon">
+            ✓
+          </div>
+
+          <div>
+
+            <h3>
+              Focus on Useful Content
+            </h3>
+
+            <p>
+              Create information that genuinely helps visitors instead
+              of writing only for search engines.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="tip">
+
+          <div class="tip-icon">
+            ✓
+          </div>
+
+          <div>
+
+            <h3>
+              Think Beyond Rankings
+            </h3>
+
+            <p>
+              Search visibility is important, but a useful website should
+              also provide a good experience for visitors.
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       CTA
+  ========================= -->
+
+  <section class="cta">
+
+    <div class="container">
+
+      <h2>
+        Want to Learn More About SEO?
+      </h2>
+
+
+      <p>
+        Explore the Digital Ayushi blog for practical articles covering
+        SEO, content optimization, keyword research, technical SEO,
+        and digital marketing.
+      </p>
+
+
+      <a href="blog.html" class="btn">
+        Explore Blog →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-logo">
+        Digital Ayushi
+      </div>
+
+
+      <p>
+        © 2026 Digital Ayushi. SEO & Digital Marketing Specialist.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
